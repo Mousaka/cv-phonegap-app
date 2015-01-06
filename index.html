@@ -24,20 +24,188 @@
         <meta charset="utf-8" />
         <meta name="format-detection" content="telephone=no" />
         <meta name="msapplication-tap-highlight" content="no" />
-        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
-        <link rel="stylesheet" type="text/css" href="css/index.css" />
-        <title>Hello World</title>
+    <title>Kristian is Kasching</title> 
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+    <link rel="stylesheet" href="css/jquery.mobile-1.2.1.min.css" />
+    <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.js"></script>
     </head>
     <body>
-        <div class="app">
-            <h1>PhoneGap</h1>
-            <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
-            </div>
+<div data-role="page" data-control-title="About me" id="page1">
+    <div data-theme="a" data-role="header" data-position="fixed">
+        <h3 class="title">
+            About me
+        </h3>
+    </div>
+    <div data-role="content">
+        <div class="profileimg" id="profileimg1" style=" text-align:center" data-controltype="image">
+            <img style="width: 50%; height: 50%" src="img/cv400x400.png">
         </div>
-        <script type="text/javascript" src="cordova.js"></script>
+        <div class="description" data-controltype="textblock">
+            <p>
+                Hi there,
+            </p>
+            <p>
+                I'm one of the LateOwls and my name is
+                <em>
+                    Kristian Lundström
+                </em>
+                and I live in Stockholm, Sweden.
+                <br>
+            </p>
+            <p>
+                I am a soon to be kickass DeveloperOwl, but at the moment I'm a StudentOwl
+                that sometimes struggles a bit but I'm learning a lot!
+            </p>
+            <p>
+                If you are interested in starting a software project and are looking for
+                a developer please contact me by mailing to
+                <br>
+            </p>
+            <p>
+                <a href="mailto:kristian.lundstrom@gmail.com">
+                    kristian.lundstrom@gmail.com
+                </a>
+                <br>
+            </p>
+            <p>
+                Check out the MyCoding page to learn about my coding skills!
+                <br>
+            </p>
+        </div>
+    </div>
+    <div data-role="footer" data-id="foo1" data-position="fixed">        
+    <div data-role="navbar" data-iconpos="top" data-theme="a">
+        <ul>
+            <li>
+                <a href="#page1" data-transition="fade" data-theme="" data-icon="home">
+                    About me
+                </a>
+            </li>
+            <li>
+                <a href="#page2" data-transition="fade" data-theme="" data-icon="star">
+                    MyCoding
+                </a>
+            </li>
+            <li>
+                <a href="#page3" data-transition="fade" data-theme="" data-icon="info">
+                    This app
+                </a>
+            </li>
+        </ul>
+    </div>
+</div><!-- /footer -->
+
+</div>
+<div data-role="page" data-control-title="Examples" id="page2">
+    <div data-theme="a" data-role="header" data-position="fixed">
+        <h3>
+            Coding
+        </h3>
+    </div>
+    <div data-role="content">
+        <div data-controltype="textblock">
+            <p>
+                I have been coding for about 8 years and during this time I have tested
+                a lot of different languages and techs. So here is a short list of some of the developer
+                skills I've picked up so far, roughly ordered in skill level
+                <br>
+                 <ul>
+                  <li>Java</li>
+                  <li>javaScript</li>
+                  <li>html5</li>
+                  <li>Erlang</li>
+                  <li>C++</li>
+                  <li>Python</li>
+                </ul> 
+            </p>
+        </div>
+            <div data-controltype="textblock">
+                    <h3 style="text-align: center;">
+            You can also have a look at all my projects on my GitHub repo
+        </h3>
+    </div>
+    <a href="https://github.com/Mousaka" data-controltype="image" target="_blank">
+        <div class="gitrepo" id="repo1" style=" text-align:center" data-controltype="image">
+            <img style="width: 64px; height: 64px" src="img/GitHub-Mark-64px.png">
+        </div>
+    </a>
+        <div data-controltype="textblock">
+                    <h3 style="text-align: center;">
+           (includes source code of this app)
+        </h3>
+    </div>
+    </div>
+        <div data-role="footer" data-id="foo1" data-position="fixed">        
+    <div data-role="navbar" data-iconpos="top" data-theme="ä">
+        <ul>
+            <li>
+                <a href="#page1" data-transition="fade" data-theme="" data-icon="home">
+                    About me
+                </a>
+            </li>
+            <li>
+                <a href="#page2" data-transition="fade" data-theme="" data-icon="star">
+                    MyCoding
+                </a>
+            </li>
+            <li>
+                <a href="#page3" data-transition="fade" data-theme="" data-icon="info">
+                    This app
+                </a>
+            </li>
+        </ul>
+    </div>
+</div><!-- /footer -->
+
+</div>
+<div data-role="page" data-control-title="This app" id="page3">
+    <div data-theme="b" data-role="header" data-position="fixed">
+        <h3>
+            This app
+        </h3>
+    </div>
+    <div data-role="content">
+        <div data-controltype="textblock">
+            <p>
+                This app was made using html5, js, css, jquery-mobile and packaged with
+                PhoneGap.
+                <a target="_blank" href="http://github.com" data-mce-href="http://github.com" target="_blank">
+                    GitHub
+                </a>
+                was used for source code management which is linked to
+                <a target="_blank" href="http://build.phonegap.com" data-mce-href="http://build.phonegap.com" target="_blank">
+                    PhoneGaps cloud app builder
+                </a>
+                <br>
+            </p>
+        </div>
+    </div>
+        <div data-role="footer" data-id="foo1" data-position="fixed">        
+    <div data-role="navbar" data-iconpos="top" data-theme="a">
+        <ul>
+            <li>
+                <a href="#page1" data-transition="fade" data-theme="" data-icon="home">
+                    About me
+                </a>
+            </li>
+            <li>
+                <a href="#page2" data-transition="fade" data-theme="" data-icon="star">
+                    MyCoding
+                </a>
+            </li>
+            <li>
+                <a href="#page3" data-transition="fade" data-theme="" data-icon="info">
+                    This app
+                </a>
+            </li>
+        </ul>
+    </div>
+</div><!-- /footer -->
+
+</div>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
             app.initialize();
