@@ -50,5 +50,5 @@ var app = {
 };
 
     function vibrate() {
-        navigator.notification.vibrate(500);
+        navigator.vibrate([400,500,500]);
     };
