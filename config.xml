@@ -2,7 +2,7 @@
 <widget 
     id="com.lateowls.cv" 
     version="0.0.5" 
-    versionCode = "10004" 
+    versionCode = "10005" 
     xmlns="http://www.w3.org/ns/widgets" 
     xmlns:gap="http://phonegap.com/ns/1.0"
     >
