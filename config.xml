@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget 
     id="com.lateowls.cv" 
-    version="0.0.5" 
-    versionCode = "10005" 
+    version="0.0.6" 
+    versionCode = "10006" 
     xmlns="http://www.w3.org/ns/widgets" 
     xmlns:gap="http://phonegap.com/ns/1.0"
     >
