@@ -33,50 +33,47 @@
     <script src="js/jquery.mobile-1.2.1.min.js"></script>
     </head>
     <body>
-<div data-role="page" data-control-title="start" id="start1">
+
+<div data-role="page" data-control-title="Examples" id="page2">
     <div data-theme="a" data-role="header" data-position="fixed">
-        <h3 class="title">
-            About me
+        <h3>
+            Coding
         </h3>
     </div>
     <div data-role="content">
-        <div class="profileimg" id="profileimg1" style=" text-align:center" data-controltype="image">
-            <img style="width: 50%; height: 50%" src="img/cv400x400.png">
-        </div>
-        <div class="description" data-controltype="textblock">
+        <div data-controltype="textblock">
             <p>
-                Hi there,
-            </p>
-            <p>
-                I'm one of the LateOwls and my name is
-                <em>
-                    Kristian Lundström
-                </em>
-                and I live in Stockholm, Sweden.
+                I have been coding for about 8 years and during this time I have tested
+                a lot of different languages and techs. So here is a short list of some of the developer
+                skills I've picked up so far, roughly ordered in skill level
                 <br>
-            </p>
-            <p>
-                I am a soon to be kickass DeveloperOwl, but at the moment I'm a StudentOwl
-                that sometimes struggles a bit but I'm learning a lot!
-            </p>
-            <p>
-                If you are interested in starting a software project and are looking for
-                a developer please contact me by mailing to
-                <br>
-            </p>
-            <p>
-                <a href="mailto:kristian.lundstrom@gmail.com">
-                    kristian.lundstrom@gmail.com
-                </a>
-                <br>
-            </p>
-            <p>
-                Check out the MyCoding page to learn about my coding skills!
-                <br>
+                 <ul>
+                  <li>Java</li>
+                  <li>javaScript</li>
+                  <li>html5</li>
+                  <li>Erlang</li>
+                  <li>C++</li>
+                  <li>Python</li>
+                </ul> 
             </p>
         </div>
+            <div data-controltype="textblock">
+                    <h3 style="text-align: center;">
+            You can also have a look at all my projects on my GitHub repo
+        </h3>
     </div>
-    <div data-role="footer" data-id="foo1" data-position="fixed">        
+    <a href="https://github.com/Mousaka" data-controltype="image" target="_blank">
+        <div class="gitrepo" id="repo1" style=" text-align:center" data-controltype="image">
+            <img style="width: 64px; height: 64px" src="img/GitHub-Mark-64px.png">
+        </div>
+    </a>
+        <div data-controltype="textblock">
+                    <h3 style="text-align: center;">
+           (includes source code of this app)
+        </h3>
+    </div>
+    </div>
+        <div data-role="footer" data-id="foo1" data-position="fixed">        
     <div data-role="navbar" data-iconpos="top" data-theme="a">
         <ul>
             <li>
@@ -90,7 +87,7 @@
                 </a>
             </li>
             <li>
-                <a href="#page3" data-transition="fade" data-theme="" data-icon="info">
+                <a href="info.html" data-transition="fade" data-theme="" data-icon="info">
                     This app
                 </a>
             </li>
@@ -99,10 +96,6 @@
 </div><!-- /footer -->
 
 </div>
-        <script type="text/javascript" src="js/index.js"></script>
-        <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
-        <script type="text/javascript">
-            app.initialize();
-        </script>
+
     </body>
 </html>

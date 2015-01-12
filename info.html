@@ -33,50 +33,30 @@
     <script src="js/jquery.mobile-1.2.1.min.js"></script>
     </head>
     <body>
-<div data-role="page" data-control-title="start" id="start1">
+<div data-role="page" data-control-title="This app" id="page3">
     <div data-theme="a" data-role="header" data-position="fixed">
-        <h3 class="title">
-            About me
+        <h3>
+            This app
         </h3>
     </div>
     <div data-role="content">
-        <div class="profileimg" id="profileimg1" style=" text-align:center" data-controltype="image">
-            <img style="width: 50%; height: 50%" src="img/cv400x400.png">
-        </div>
-        <div class="description" data-controltype="textblock">
+        <div data-controltype="textblock" >
+            <br>
             <p>
-                Hi there,
-            </p>
-            <p>
-                I'm one of the LateOwls and my name is
-                <em>
-                    Kristian Lundström
-                </em>
-                and I live in Stockholm, Sweden.
-                <br>
-            </p>
-            <p>
-                I am a soon to be kickass DeveloperOwl, but at the moment I'm a StudentOwl
-                that sometimes struggles a bit but I'm learning a lot!
-            </p>
-            <p>
-                If you are interested in starting a software project and are looking for
-                a developer please contact me by mailing to
-                <br>
-            </p>
-            <p>
-                <a href="mailto:kristian.lundstrom@gmail.com">
-                    kristian.lundstrom@gmail.com
+                This app was made using html5, js, css, jquery-mobile and packaged with
+                PhoneGap.
+                <a target="_blank" href="http://github.com" data-mce-href="http://github.com" target="_blank">
+                    GitHub
                 </a>
-                <br>
-            </p>
-            <p>
-                Check out the MyCoding page to learn about my coding skills!
+                was used for source code management which is linked to
+                <a target="_blank" href="http://build.phonegap.com" data-mce-href="http://build.phonegap.com" target="_blank">
+                    PhoneGaps cloud app builder
+                </a>
                 <br>
             </p>
         </div>
     </div>
-    <div data-role="footer" data-id="foo1" data-position="fixed">        
+        <div data-role="footer" data-id="foo1" data-position="fixed">        
     <div data-role="navbar" data-iconpos="top" data-theme="a">
         <ul>
             <li>
@@ -97,12 +77,7 @@
         </ul>
     </div>
 </div><!-- /footer -->
-
 </div>
-        <script type="text/javascript" src="js/index.js"></script>
-        <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
-        <script type="text/javascript">
-            app.initialize();
-        </script>
-    </body>
+</body>
+
 </html>
